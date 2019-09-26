@@ -13,3 +13,13 @@ export default {
   }
 };
 </script>
+<style>
+p {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Fugaz One", cursive;
+}
+</style>
