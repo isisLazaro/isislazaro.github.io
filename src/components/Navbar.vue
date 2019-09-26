@@ -1,0 +1,48 @@
+<template>
+  <div>
+    <nav class="navbar">
+      <router-link :to="{ name: 'home' }">
+        <h1 class="title">Isis Lázaro</h1>
+        <h2 class="subtitle is-6">desarrolladora front-end</h2>
+      </router-link>
+      <div class="navbar-end">
+        <router-link class="navbar-item" :to="{ name: 'about' }"
+          >Acerca de mí</router-link
+        >
+        <router-link class="navbar-item" :to="{ name: 'habilidades' }"
+          >Habilidades</router-link
+        >
+        <router-link class="navbar-item" :to="{ name: 'proyectos' }"
+          >Proyectos</router-link
+        >
+      </div>
+    </nav>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Navbar"
+};
+</script>
+
+<style scoped>
+.navbar {
+  background: #cc1994;
+}
+.title {
+  font-family: "Fugaz One", cursive;
+  letter-spacing: 0.1rem;
+  color: thistle;
+}
+.subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: mintcream;
+}
+.navbar-item {
+  font-family: "Fugaz One", cursive;
+  color: mintcream;
+}
+</style>
