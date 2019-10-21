@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Aboutme></Aboutme>
+    <Aboutme />
   </div>
 </template>
 <script>

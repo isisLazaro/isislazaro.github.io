@@ -16,6 +16,7 @@ export default {
 <style>
 #app {
   font-family: "Open Sans", sans-serif;
+  margin: 0 4em;
 }
 
 h1,

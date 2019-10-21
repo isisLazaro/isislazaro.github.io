@@ -3,7 +3,7 @@
     <div class="navbar-brand">
       <router-link :to="{ name: 'home' }" id="logoLink" class="navbar-item">
         <h1 class="title">Isis Lázaro</h1>
-        <h2 class="subtitle is-6">desarrolladora front-end</h2>
+        <h2 class="subtitle is-6">desarrolladora web</h2>
       </router-link>
       <a
         role="button"
@@ -24,7 +24,7 @@
         <router-link class="navbar-item" :to="{ name: 'proyectos' }"
           >Proyectos</router-link
         >
-        <router-link class="navbar-item" :to="{ name: 'habilidades' }"
+        <router-link class="navbar-item" :to="{ name: 'herramientas' }"
           >Herramientas</router-link
         >
         <router-link class="navbar-item" :to="{ name: 'about' }"
