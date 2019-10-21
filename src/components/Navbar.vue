@@ -6,14 +6,14 @@
         <h2 class="subtitle is-6">desarrolladora front-end</h2>
       </router-link>
       <div class="navbar-end">
-        <router-link class="navbar-item" :to="{ name: 'about' }"
-          >Acerca de mí</router-link
-        >
-        <router-link class="navbar-item" :to="{ name: 'habilidades' }"
-          >Habilidades</router-link
-        >
         <router-link class="navbar-item" :to="{ name: 'proyectos' }"
           >Proyectos</router-link
+        >
+        <router-link class="navbar-item" :to="{ name: 'habilidades' }"
+          >Herramientas</router-link
+        >
+        <router-link class="navbar-item" :to="{ name: 'about' }"
+          >Acerca de mí</router-link
         >
       </div>
     </nav>

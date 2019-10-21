@@ -13,7 +13,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/isisLazaro/portfolio.git master:gh-pages
-
+# if you are deploying to https://<USERNAME>.github.io
+git push -f git@github.com:isisLazaro/isislazaro.github.io.git master
 cd -
