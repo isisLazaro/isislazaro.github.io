@@ -4,8 +4,8 @@
       <div class="container">
         <h2 class="title">Acerca de mí</h2>
         <p class="subtitle">
-          ¡Hola!. Soy desarrolladora web en la cdmx. Me encanta convertir ideas
-          en código, crear aplicaciones útiles y accesibles a los usuarios,
+          ¡Hola!. Soy desarrolladora web en cdmx. Me encanta convertir ideas en
+          código, crear aplicaciones útiles y accesibles a los usuarios,
           utilizando las herramientas adecuadas. Aprendiendo constantemente.
         </p>
       </div>
