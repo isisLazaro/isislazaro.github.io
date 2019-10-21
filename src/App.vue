@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <Navbar></Navbar>
     <router-view />
   </div>
@@ -14,9 +14,10 @@ export default {
 };
 </script>
 <style>
-p {
+#app {
   font-family: "Open Sans", sans-serif;
 }
+
 h1,
 h2,
 h3 {
