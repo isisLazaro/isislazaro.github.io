@@ -2,8 +2,8 @@
   <nav class="navbar">
     <div class="navbar-brand">
       <router-link :to="{ name: 'home' }" id="logoLink" class="navbar-item">
-        <h1 class="title">Isis Lázaro</h1>
-        <h2 class="subtitle is-6">desarrolladora web</h2>
+        <h1 class="title title-logo">Isis Lázaro</h1>
+        <h2 class="subtitle is-6 subtitle-logo">desarrolladora web</h2>
       </router-link>
       <a
         role="button"
@@ -49,18 +49,20 @@ export default {
 <style scoped>
 .navbar {
   background: #cc1994;
+  /* height: 3.5rem; */
   /* margin: 0 3em; */
 }
 #logoLink {
   display: block;
 }
 
-.title {
+.title-logo {
   font-family: "Fugaz One", cursive;
-  letter-spacing: 0.1rem;
+  font-size: 1.7rem;
+  /* letter-spacing: 0.1rem; */
   color: thistle;
 }
-.subtitle {
+.subtitle-logo {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   font-weight: bold;
