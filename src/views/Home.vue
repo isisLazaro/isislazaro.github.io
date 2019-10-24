@@ -1,9 +1,11 @@
 <template>
   <section class="section">
-    <div class="columns">
+    <div class="columns is-vcentered is-tablet">
       <div class="column">
         <h2 class="title has-text-centered">Acerca de mí</h2>
         <Profilecard />
+      </div>
+      <div class="column">
         <Aboutme />
       </div>
     </div>
@@ -23,5 +25,8 @@ export default {
 <style scoped>
 .section {
   padding: 1.5rem;
+}
+.title:not(:last-child) {
+  margin-bottom: 1rem;
 }
 </style>

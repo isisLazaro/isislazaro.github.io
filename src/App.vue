@@ -14,9 +14,10 @@ export default {
 };
 </script>
 <style>
-/* @import "./assets/styles/debug.css"; */
+/* @import "./assets/debug.css"; */
 #app {
   font-family: "Open Sans", sans-serif;
+  font-weight: 600;
   /* padding: 0 1.5em; */
 }
 
