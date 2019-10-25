@@ -4,12 +4,12 @@
       <img src="../assets/taxi-2.png" width="60%" alt="profile picture" />
     </div>
     <div class="content has-text-centered">
-      <a href="https://www.linkedin.com/in/isis-lazaro/">
+      <a href="https://www.linkedin.com/in/isis-lazaro/" target="_blank">
         <span class="icon is-medium is-size-4">
           <i class="fab fa-linkedin"></i>
         </span>
       </a>
-      <a href="https://github.com/isisLazaro/">
+      <a href="https://github.com/isisLazaro/" target="_blank">
         <span class="icon is-medium is-size-4">
           <i class="fab fa-github-square"></i>
         </span>

@@ -1,4 +1,5 @@
 // $navbar-background-color: #f1cc46;
-$mobile: 400px;
-$tablet: 560px;
+$mobile: 576px;
+$tablet: 768px;
+$navbar-breakpoint: $mobile;
 @import "~bulma/bulma";

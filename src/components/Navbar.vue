@@ -1,35 +1,24 @@
 <template>
   <nav class="navbar">
     <div class="navbar-brand">
-      <router-link :to="{ name: 'home' }" id="logoLink" class="navbar-item">
-        <h1 class="title title-logo">Isis Lázaro</h1>
-        <h2 class="subtitle is-6 subtitle-logo">desarrolladora web</h2>
-      </router-link>
-      <a
-        role="button"
-        class="navbar-burger"
-        aria-label="menu"
-        aria-expanded="false"
-        data-target="navMenu"
-        @click="showNav = !showNav"
-        :class="{ 'is-active': showNav }"
-      >
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
+      <div class="navbar-item center-h">
+        <router-link :to="{ name: 'home' }" id="logoLink">
+          <h1 class="title title-logo">Isis Lázaro</h1>
+          <h2 class="subtitle is-6 subtitle-logo">desarrolladora web</h2>
+        </router-link>
+      </div>
     </div>
-    <div id="navMenu" class="navbar-menu" :class="{ 'is-active': showNav }">
-      <div class="navbar-end">
-        <router-link class="navbar-item" :to="{ name: 'proyectos' }"
-          >Proyectos</router-link
-        >
-        <router-link class="navbar-item" :to="{ name: 'herramientas' }"
-          >Herramientas</router-link
-        >
-        <router-link class="navbar-item" :to="{ name: 'about' }"
-          >Acerca de mí</router-link
-        >
+    <div
+      class="navbar-end is-size-4 is-flex-mobile is-size-7-mobile has-text-weight-light-mobile"
+    >
+      <div class="navbar-item">
+        <router-link :to="{ name: 'proyectos' }">Proyectos</router-link>
+      </div>
+      <div class="navbar-item">
+        <router-link :to="{ name: 'herramientas' }">Herramientas</router-link>
+      </div>
+      <div class="navbar-item">
+        <router-link :to="{ name: 'about' }">Acerca de mí</router-link>
       </div>
     </div>
   </nav>
@@ -37,21 +26,23 @@
 
 <script>
 export default {
-  name: "Navbar",
-  data() {
-    return {
-      showNav: false
-    };
-  }
+  name: "Navbar"
 };
 </script>
 
 <style scoped>
-.navbar {
-  background: #cc1994;
-  /* height: 3.5rem; */
-  /* margin: 0 3em; */
+/* .navbar { */
+/* background: #cc1994; */
+/* height: 3.5rem; */
+/* margin: 0 3em; */
+/* } */
+.is-flex-mobile {
+  justify-content: center;
 }
+.center-h {
+  margin: 0 auto;
+}
+
 #logoLink {
   display: block;
 }
@@ -60,16 +51,17 @@ export default {
   font-family: "Fugaz One", cursive;
   font-size: 1.7rem;
   /* letter-spacing: 0.1rem; */
-  color: thistle;
+  /* color: thistle; */
 }
 .subtitle-logo {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   font-weight: bold;
-  color: mintcream;
+  /* color: mintcream; */
 }
 .navbar-item {
   font-family: "Fugaz One", cursive;
-  color: mintcream;
+  font-weight: lighter;
+  /* color: mintcream; */
 }
 </style>

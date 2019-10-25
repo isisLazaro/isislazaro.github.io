@@ -4,10 +4,16 @@
       ¡Hola!
       <br />
       <br />Me llamo Isis y soy desarrolladora web en CDMX. Me encanta convertir
-      ideas en código, crear aplicaciones útiles y accesibles, utilizando las
-      herramientas adecuadas. <br />Aprendiendo constantemente.
+      ideas en código, programar y crear aplicaciones.
       <br />
-      <br />Aquí puedes ver algunos de mis proyectos
+      <br />Siempre aprendiendo.
+      <br />
+      <br />Te invito a que conozcas algunos de los
+      <router-link :to="{ name: 'proyectos' }">proyectos&nbsp;</router-link>en
+      los que he trabajado y las
+      <router-link :to="{ name: 'herramientas' }"
+        >herramientas&nbsp;</router-link
+      >que he utilizado.
     </p>
   </div>
 </template>

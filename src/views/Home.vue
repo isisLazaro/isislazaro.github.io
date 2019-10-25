@@ -2,7 +2,7 @@
   <section class="section">
     <div class="columns is-vcentered is-tablet">
       <div class="column">
-        <h2 class="title has-text-centered">Acerca de mí</h2>
+        <h2 class="title is-5">Acerca de mí</h2>
         <Profilecard />
       </div>
       <div class="column">
@@ -11,6 +11,7 @@
     </div>
   </section>
 </template>
+
 <script>
 import Aboutme from "@/components/Aboutme.vue";
 import Profilecard from "@/components/Profilecard.vue";
@@ -22,9 +23,10 @@ export default {
   }
 };
 </script>
+
 <style scoped>
 .section {
-  padding: 1.5rem;
+  padding: 2rem;
 }
 .title:not(:last-child) {
   margin-bottom: 1rem;
