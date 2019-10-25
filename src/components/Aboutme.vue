@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <p class="subtitle">
+    <p class="is-size-6-mobile is-size-5">
       ¡Hola!
       <br />
       <br />Me llamo Isis y soy desarrolladora web en CDMX. Me encanta convertir
@@ -26,7 +26,7 @@ export default {
 
 <style scoped>
 .subtitle {
-  font-size: 1rem;
+  /* font-size: 1rem; */
   line-height: 1.5rem;
 }
 </style>

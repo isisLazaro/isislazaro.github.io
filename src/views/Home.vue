@@ -1,11 +1,13 @@
 <template>
   <section class="section">
-    <div class="columns is-vcentered is-tablet">
-      <div class="column">
-        <h2 class="title is-5">Acerca de mí</h2>
+    <div class="columns is-gapless is-vcentered is-multiline">
+      <div class="column is-full">
+        <h2 class="title is-5 is-size-3-desktop">Acerca de mí</h2>
+      </div>
+      <div class="column is-4">
         <Profilecard />
       </div>
-      <div class="column">
+      <div class="column is-7">
         <Aboutme />
       </div>
     </div>

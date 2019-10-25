@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar">
+  <nav class="navbar is-spaced">
     <div class="navbar-brand">
       <div class="navbar-item center-h">
         <router-link :to="{ name: 'home' }" id="logoLink">
@@ -9,7 +9,7 @@
       </div>
     </div>
     <div
-      class="navbar-end is-size-4 is-flex-mobile is-size-7-mobile has-text-weight-light-mobile"
+      class="navbar-end is-size-5 is-flex-mobile is-size-7-mobile has-text-weight-light-mobile"
     >
       <div class="navbar-item">
         <router-link :to="{ name: 'proyectos' }">Proyectos</router-link>
@@ -41,6 +41,7 @@ export default {
 }
 .center-h {
   margin: 0 auto;
+  padding: 0.5rem 0rem;
 }
 
 #logoLink {

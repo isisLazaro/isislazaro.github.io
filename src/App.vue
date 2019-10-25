@@ -17,7 +17,7 @@ export default {
 /* @import "./assets/debug.css"; */
 #app {
   font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  /* font-weight: 600; */
   /* padding: 0 1.5em; */
 }
 
