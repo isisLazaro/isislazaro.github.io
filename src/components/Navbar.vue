@@ -39,6 +39,7 @@ export default {
 .is-flex-mobile {
   justify-content: center;
 }
+
 .center-h {
   margin: 0 auto;
   padding: 0.5rem 0rem;
@@ -54,12 +55,14 @@ export default {
   /* letter-spacing: 0.1rem; */
   /* color: thistle; */
 }
+
 .subtitle-logo {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   font-weight: bold;
   /* color: mintcream; */
 }
+
 .navbar-item {
   font-family: "Fugaz One", cursive;
   font-weight: lighter;

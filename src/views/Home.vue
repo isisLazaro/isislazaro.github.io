@@ -1,9 +1,9 @@
 <template>
   <section class="section">
     <div class="columns is-gapless is-vcentered is-multiline">
-      <div class="column is-full">
+      <!-- <div class="column is-full">
         <h2 class="title is-5 is-size-3-desktop">Acerca de mí</h2>
-      </div>
+      </div>-->
       <div class="column is-4">
         <Profilecard />
       </div>
