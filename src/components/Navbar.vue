@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-spaced">
+  <nav class="navbar">
     <div class="navbar-brand">
       <div class="navbar-item center-h">
         <router-link :to="{ name: 'home' }" id="logoLink">
@@ -8,9 +8,7 @@
         </router-link>
       </div>
     </div>
-    <div
-      class="navbar-end is-size-5 is-flex-mobile is-size-7-mobile has-text-weight-light-mobile"
-    >
+    <div class="navbar-end is-flex-mobile">
       <div class="navbar-item">
         <router-link :to="{ name: 'proyectos' }">Proyectos</router-link>
       </div>
@@ -31,11 +29,6 @@ export default {
 </script>
 
 <style scoped>
-/* .navbar { */
-/* background: #cc1994; */
-/* height: 3.5rem; */
-/* margin: 0 3em; */
-/* } */
 .is-flex-mobile {
   justify-content: center;
 }
@@ -63,9 +56,38 @@ export default {
   /* color: mintcream; */
 }
 
+.navbar-end {
+  align-items: end;
+  font-size: 0.8rem;
+}
+
 .navbar-item {
   font-family: "Fugaz One", cursive;
   font-weight: lighter;
   /* color: mintcream; */
+}
+
+@media screen and (min-width: 410px) and (max-width: 464px) {
+  .navbar-end {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 465px) and (max-width: 575px) {
+  .navbar-end {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .navbar-end {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-end {
+    font-size: 1.3rem;
+  }
 }
 </style>

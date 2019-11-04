@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <p class="is-size-6-mobile is-size-5">
-      ¡Hola!
+      <strong>¡Hola!</strong>
       <br />
       <br />Me llamo Isis y soy desarrolladora web en CDMX. Me encanta convertir
       ideas en código, programar y crear aplicaciones.

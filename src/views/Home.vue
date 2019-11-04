@@ -4,10 +4,10 @@
       <!-- <div class="column is-full">
         <h2 class="title is-5 is-size-3-desktop">Acerca de mí</h2>
       </div>-->
-      <div class="column is-4">
+      <div class="column is-5-tablet is-4-desktop">
         <Profilecard />
       </div>
-      <div class="column is-7">
+      <div class="column is-6-tablet is-7-desktop">
         <Aboutme />
       </div>
     </div>
@@ -27,9 +27,9 @@ export default {
 </script>
 
 <style scoped>
-.section {
+/* .section {
   padding: 2rem;
-}
+} */
 .title:not(:last-child) {
   margin-bottom: 1rem;
 }
