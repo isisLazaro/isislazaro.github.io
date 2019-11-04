@@ -25,7 +25,7 @@ export default {
       tools: [
         {
           name: "html",
-          imgPath: "_ionicons_svg_logo-html5.svg"
+          imgPath: "ionicons_svg_logo-html5.svg"
         },
         {
           name: "css",
