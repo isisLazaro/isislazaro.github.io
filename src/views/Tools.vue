@@ -34,6 +34,10 @@ export default {
         {
           name: "js",
           imgPath: "bxl-javascript.svg"
+        },
+        {
+          name: "vue.js",
+          imgPath: "vuejs-fill.svg"
         }
       ]
     };

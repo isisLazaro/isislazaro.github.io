@@ -1,28 +1,35 @@
 <template>
   <section class="section">
-    <div class="columns is-vcentered is-centered is-multiline">
-      <div class="column is-full">
-        <h2 class="title title is-5 is-size-4-desktop">Proyectos</h2>
-      </div>
-      <div class="column is-one-third">
-        <Underconstruction />
-      </div>
-    </div>
+    <!-- <div class="columns is-vcentered is-centered is-multiline"> -->
+    <!-- <div class="column is-full"> -->
+    <h2 class="title title is-5 is-size-4-desktop">Proyectos</h2>
+    <!-- </div> -->
+    <!-- <div class="column is-one-third"> -->
+    <!-- <Underconstruction /> -->
+    <Projectcard
+      v-for="project in projects"
+      :key="project.name"
+      :project="project"
+    />
+    <!-- </div> -->
+    <!-- </div> -->
   </section>
 </template>
 
 <script>
-import Underconstruction from "@/components/Underconstruction.vue";
+// import Underconstruction from "@/components/Underconstruction.vue";
+import Projectcard from "@/components/Projectcard.vue";
 export default {
   components: {
-    Underconstruction
+    // Underconstruction,
+    Projectcard
   },
   data() {
     return {
       projects: [
         {
           name: "Proyecto 1",
-          imgPath: "url",
+          imgPath: "data-lovers.png",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Tincidunt dui ut ornare lectus sit amet est placerat."
         }

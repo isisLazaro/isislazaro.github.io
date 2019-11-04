@@ -27,8 +27,7 @@ export default {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: "Fugaz One", cursive;
 }
 
