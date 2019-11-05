@@ -24,3 +24,4 @@ yarn-error.log*
 deploy.sh
 vue.config.js
 /src/assets/debug.css
+READMEoriginal.md
