@@ -21,6 +21,7 @@ yarn-error.log*
 *.sw?
 
 # Others
-deploy.sh
-vue.config.js
+/deploy.sh
+/vue.config.js
 /src/assets/debug.css
+/READMEoriginal.md
