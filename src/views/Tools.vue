@@ -38,6 +38,30 @@ export default {
         {
           name: "vue.js",
           imgPath: "vuejs-fill.svg"
+        },
+        {
+          name: "firebase",
+          imgPath: "firebase.svg"
+        },
+        {
+          name: "git",
+          imgPath: "bxl-git.svg"
+        },
+        {
+          name: "github",
+          imgPath: "iconmonstr-github-1.svg"
+        },
+        {
+          name: "node.js",
+          imgPath: "bxl-nodejs.svg"
+        },
+        {
+          name: "arduino",
+          imgPath: "arduino.svg"
+        },
+        {
+          name: "matlab",
+          imgPath: "mathworks.svg"
         }
       ]
     };
