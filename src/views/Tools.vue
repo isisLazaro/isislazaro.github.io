@@ -4,10 +4,15 @@
       <div class="column is-full">
         <h2 class="title is-5 is-size-4-desktop">Herramientas</h2>
       </div>
-      <div class="column is-one-third">
-        <!-- <Underconstruction /> -->
-        <Toolcard v-for="tool in tools" :key="tool.name" :tool="tool" />
-      </div>
+      <!-- <div class="column is-one-third"> -->
+      <!-- <Underconstruction /> -->
+      <Toolcard
+        class="column is-one-fifth"
+        v-for="tool in tools"
+        :key="tool.name"
+        :tool="tool"
+      />
+      <!-- </div> -->
     </div>
   </section>
 </template>
