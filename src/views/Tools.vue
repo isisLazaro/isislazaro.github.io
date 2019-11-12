@@ -4,32 +4,43 @@
       <div class="column is-8">
         <h3 class="is-size-4 is-size-2-desktop">Herramientas</h3>
       </div>
-      <div class="column is-8 testing">
+      <div class="column is-8">
         <h4 class="is-size-5 tools-subtitle is-size-3-desktop">
-          Herramientas Técnicas: desarrollo web
+          Herramientas técnicas: desarrollo web
         </h4>
-        <div class="columns is-multiline">
+        <div class="columns is-multiline is-mobile tool-cards">
           <Toolcard
-            class="column is-4"
+            class="column is-6-mobile is-4-tablet is-3-desktop"
             v-for="tool in tools"
             :key="tool.name"
             :tool="tool"
           />
         </div>
       </div>
-      <div class="column is-8 testing">
+      <div class="column is-8">
+        <h4 class="is-size-5 tools-subtitle is-size-3-desktop">
+          Herramientas técnicas: otras
+        </h4>
+        <div class="columns is-multiline is-mobile tool-cards">
+          <Toolcard
+            class="column is-6-mobile is-4-tablet is-3-desktop"
+            v-for="tool in otherTools"
+            :key="tool.name"
+            :tool="tool"
+          />
+        </div>
+      </div>
+      <div class="column is-8">
         <h4 class="is-size-5 tools-subtitle is-size-3-desktop">Softskills</h4>
-        <div class="columns is-multiline"></div>
+        <div class="columns is-multiline is-mobile tool-cards"></div>
+        <Toolcard
+          class="column is-6-mobile is-4-tablet is-3-desktop"
+          v-for="skill in softskills"
+          :key="skill.name"
+          :skill="skill"
+        />
       </div>
     </div>
-    <!-- <div class="columns">
-      <Toolcard
-        class="column is-8"
-        v-for="tool in tools"
-        :key="tool.name"
-        :tool="tool"
-      />
-    </div>-->
   </section>
 </template>
 
@@ -84,7 +95,9 @@ export default {
         },
         {
           name: "jest"
-        },
+        }
+      ],
+      otherTools: [
         {
           name: "arduino",
           imgPath: "arduino.svg"
@@ -119,8 +132,8 @@ export default {
 };
 </script>
 <style scoped>
-.testing {
-  background: none;
+.tool-cards {
+  margin-left: -0.1rem;
 }
 
 .tools-subtitle {

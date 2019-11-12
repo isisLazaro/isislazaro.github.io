@@ -29,9 +29,6 @@ export default {
 </script>
 
 <style scoped>
-/* .navbar {
-  background: #c8257d;
-} */
 .is-flex-mobile {
   justify-content: center;
 }
@@ -47,7 +44,8 @@ export default {
 
 .title-logo {
   font-family: "Fugaz One", cursive;
-  font-size: 1.7rem;
+  font-size: 2rem;
+  color: #c8257d;
   /* letter-spacing: 0.1rem; */
   /* color: thistle; */
 }

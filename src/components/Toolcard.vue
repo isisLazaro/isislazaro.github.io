@@ -2,7 +2,7 @@
   <div class="box is-shadowless is-paddingless">
     <article class="media">
       <div class="media-left">
-        <figure class="image is-32x32 is-48x48-desktop">
+        <figure class="image is-32x32">
           <img :src="require(`../assets/icons/${tool.imgPath}`)" alt="Image" />
         </figure>
       </div>
