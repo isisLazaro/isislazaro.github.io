@@ -2,9 +2,7 @@
   <div class="box is-shadowless is-paddingless">
     <article class="media">
       <div class="media-left">
-        <figure class="image is-48x48">
-          <!-- <img src="@/assets/icons/_ionicons_svg_logo-html5.svg" alt="Image" /> -->
-          <!-- <img :src="tool.imgPath" alt="Image" /> -->
+        <figure class="image is-32x32 is-48x48-desktop">
           <img :src="require(`../assets/icons/${tool.imgPath}`)" alt="Image" />
         </figure>
       </div>

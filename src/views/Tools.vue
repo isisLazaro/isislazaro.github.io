@@ -1,53 +1,34 @@
 <template>
   <section class="section">
-    <div class="columns is-multiline is-gapless">
-      <div class="column is-full">
-        <h2 class="title is-5 is-size-4-desktop">Herramientas</h2>
+    <div class="columns is-vcentered is-centered is-multiline is-gapless">
+      <div class="column is-8">
+        <h3 class="is-size-4 is-size-2-desktop">Herramientas</h3>
       </div>
-      <div class="column is-full">
-        <br />
-        <h3>Herramientas Técnicas</h3>
+      <div class="column is-8 testing">
+        <h4 class="is-size-5 tools-subtitle is-size-3-desktop">
+          Herramientas Técnicas: desarrollo web
+        </h4>
+        <div class="columns is-multiline">
+          <Toolcard
+            class="column is-4"
+            v-for="tool in tools"
+            :key="tool.name"
+            :tool="tool"
+          />
+        </div>
+      </div>
+      <div class="column is-8 testing">
+        <h4 class="is-size-5 tools-subtitle is-size-3-desktop">Softskills</h4>
+        <div class="columns is-multiline"></div>
       </div>
     </div>
-    <div class="columns">
+    <!-- <div class="columns">
       <Toolcard
-        class="column is-3"
-        v-for="tool in tools.slice(0, 4)"
+        class="column is-8"
+        v-for="tool in tools"
         :key="tool.name"
         :tool="tool"
       />
-    </div>
-    <div class="columns">
-      <Toolcard
-        class="column is-3"
-        v-for="tool in tools.slice(4, 6)"
-        :key="tool.name"
-        :tool="tool"
-      />
-    </div>
-    <div class="columns">
-      <Toolcard
-        class="column is-3"
-        v-for="tool in tools.slice(6, 8)"
-        :key="tool.name"
-        :tool="tool"
-      />
-    </div>
-    <div class="columns">
-      <Toolcard
-        class="column is-3"
-        v-for="tool in tools.slice(8, 10)"
-        :key="tool.name"
-        :tool="tool"
-      />
-    </div>
-    <div class="columns">
-      <h3>Softskills</h3>
-    </div>
-    <!-- <div class="column is-full">
-        
-        
-      </div>
     </div>-->
   </section>
 </template>
@@ -72,7 +53,7 @@ export default {
           imgPath: "css3-fill.svg"
         },
         {
-          name: "java script",
+          name: "javascript",
           imgPath: "bxl-javascript.svg"
         },
         {
@@ -137,3 +118,12 @@ export default {
   }
 };
 </script>
+<style scoped>
+.testing {
+  background: none;
+}
+
+.tools-subtitle {
+  padding: 0.8rem 0 2rem;
+}
+</style>

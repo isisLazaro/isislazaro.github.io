@@ -1,5 +1,5 @@
 <template>
-  <section class="section is-fullheight">
+  <section class="section">
     <div class="columns is-vcentered is-centered is-multiline">
       <div class="column is-8">
         <h3 class="is-size-3 first-part is-size-1-desktop">¡Hola!</h3>
@@ -57,7 +57,7 @@ export default {
 /* .first-paragraph {
   line-height: 1.8;
 } */
-.title:not(:last-child) {
+/* .title:not(:last-child) {
   margin-bottom: 1rem;
-}
+} */
 </style>
