@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar">
+  <nav class="navbar is-spaced">
     <div class="navbar-brand">
       <div class="navbar-item center-h">
         <router-link :to="{ name: 'home' }" id="logoLink">
