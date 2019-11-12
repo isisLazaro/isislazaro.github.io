@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section class="section is-fullheight">
     <div class="columns is-vcentered is-centered is-multiline">
       <div class="column is-8">
         <h3 class="is-size-3 first-part is-size-1-desktop">¡Hola!</h3>
