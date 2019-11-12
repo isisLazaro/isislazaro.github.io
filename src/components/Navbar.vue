@@ -29,6 +29,9 @@ export default {
 </script>
 
 <style scoped>
+/* .navbar {
+  background: #c8257d;
+} */
 .is-flex-mobile {
   justify-content: center;
 }
@@ -58,7 +61,7 @@ export default {
 
 .navbar-end {
   align-items: end;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .navbar-item {
@@ -67,7 +70,7 @@ export default {
   /* color: mintcream; */
 }
 
-@media screen and (min-width: 410px) and (max-width: 464px) {
+/* @media screen and (min-width: 410px) and (max-width: 464px) {
   .navbar-end {
     font-size: 1rem;
   }
@@ -83,7 +86,7 @@ export default {
   .navbar-end {
     font-size: 1rem;
   }
-}
+}*/
 
 @media screen and (min-width: 768px) {
   .navbar-end {
