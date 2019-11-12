@@ -21,8 +21,6 @@ export default {
 
 #app {
   font-family: "Open Sans", sans-serif;
-  /* font-weight: 600; */
-  /* padding: 0 1.5em; */
   padding: 0 2rem;
 }
 
