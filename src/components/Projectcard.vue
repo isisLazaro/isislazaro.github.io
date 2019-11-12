@@ -1,6 +1,6 @@
 <template>
   <div class="columns is-tablet">
-    <div class="column is-two-fifths">
+    <div class="column is-half">
       <figure class="image">
         <img
           :src="require(`../assets/prjctImgs/${project.imgPath}`)"
@@ -8,10 +8,23 @@
         />
       </figure>
     </div>
-    <div class="column is-three-fifths">
-      <h3>{{ project.name }}</h3>
-
+    <div class="column is-half">
+      <h3 class="is-size-5 second-part is-size-3-desktop">
+        {{ project.name }}
+      </h3>
       <p>{{ project.description }}</p>
+      <button class="button" disabled>
+        <span class="icon">
+          <i class="fab fa-github"></i>
+        </span>
+        <span>GitHub</span>
+      </button>
+      <!-- <button class="button" disabled>
+        <span class="icon">
+          <i class="fas fa-link"></i>
+        </span>
+        <span>Ver</span>
+      </button>-->
     </div>
   </div>
 </template>
