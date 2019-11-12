@@ -24,14 +24,13 @@ export default {
   padding: 0 2rem;
 }
 
-h1,
-h2 {
+h1 {
   font-family: "Fugaz One", cursive;
 }
 
-@media screen and (max-width: 370px) {
+/* @media screen and (max-width: 370px) {
   #app {
     padding: 0 0.85rem;
   }
-}
+} */
 </style>

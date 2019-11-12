@@ -15,9 +15,9 @@
       <div class="navbar-item">
         <router-link :to="{ name: 'herramientas' }">Herramientas</router-link>
       </div>
-      <div class="navbar-item">
+      <!-- <div class="navbar-item">
         <router-link :to="{ name: 'about' }">Acerca de mí</router-link>
-      </div>
+      </div>-->
     </div>
   </nav>
 </template>

@@ -8,7 +8,7 @@
   </footer>
 </template>
 <style scoped>
-.footer-vue {
+/* .footer-vue {
   padding: 3rem 1.5rem;
   font-size: 0.9em;
   position: relative;
@@ -22,5 +22,5 @@
     left: 0;
     right: 0;
   }
-}
+} */
 </style>
