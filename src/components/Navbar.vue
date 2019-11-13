@@ -45,7 +45,10 @@ export default {
 .title-logo {
   font-family: "Fugaz One", cursive;
   font-size: 2rem;
-  color: #c8257d;
+  /* color: #c8257d; */
+  /* color: #8c489f; */
+  color: #6c08e7;
+
   /* letter-spacing: 0.1rem; */
   /* color: thistle; */
 }
@@ -54,6 +57,7 @@ export default {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   font-weight: bold;
+  color: #21123b;
   /* color: mintcream; */
 }
 

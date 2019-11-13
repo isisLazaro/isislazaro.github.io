@@ -31,13 +31,20 @@
         </div>
       </div>
       <div class="column is-8">
-        <h4 class="is-size-5 tools-subtitle is-size-3-desktop">Softskills</h4>
+        <div class="media media-tools-subtitle">
+          <h4 class="is-size-5 tools-subtitle is-size-3-desktop">Softskills</h4>
+          <!-- <div class="media-right">
+            <figure class="image is-32x32">
+              <img :src="require(`../assets/icons/coffee.svg`)" alt="Image" />
+            </figure>
+          </div>-->
+        </div>
         <div class="columns is-multiline is-mobile tool-cards"></div>
         <Toolcard
           class="column is-6-mobile is-4-tablet is-3-desktop"
-          v-for="skill in softskills"
-          :key="skill.name"
-          :skill="skill"
+          v-for="tool in softskills"
+          :key="tool.name"
+          :tool="tool"
         />
       </div>
     </div>
@@ -88,14 +95,19 @@ export default {
           imgPath: "bxl-nodejs.svg"
         },
         {
-          name: "npm"
+          name: "npm",
+          imgPath: "ionicons_svg_logo-npm.svg"
         },
         {
           name: "bulma"
         },
         {
           name: "jest"
-        }
+        },
+        {
+          name: "figma"
+        },
+        { name: "invision studio" }
       ],
       otherTools: [
         {
@@ -109,7 +121,8 @@ export default {
       ],
       softskills: [
         {
-          name: "agile"
+          name: "agile",
+          imgPath: "trello.svg"
         },
         {
           name: "trabajo en equipo"
@@ -139,4 +152,8 @@ export default {
 .tools-subtitle {
   padding: 0.8rem 0 2rem;
 }
+
+/* .media-tools-subtitle {
+  align-self: center;
+} */
 </style>

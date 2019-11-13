@@ -1,6 +1,6 @@
 <template>
   <div class="box is-shadowless is-paddingless">
-    <article class="media">
+    <article class="media media-tool-card">
       <div class="media-left">
         <figure class="image is-32x32">
           <img :src="require(`../assets/icons/${tool.imgPath}`)" alt="Image" />
@@ -22,7 +22,7 @@ export default {
 };
 </script>
 <style scoped>
-.media {
+.media-tool-card {
   align-items: center;
 }
 </style>
