@@ -26,18 +26,6 @@
   </section>
 </template>
 
-<script>
-import Aboutme from "@/components/Aboutme.vue";
-import Profilecard from "@/components/Profilecard.vue";
-
-export default {
-  components: {
-    Aboutme,
-    Profilecard
-  }
-};
-</script>
-
 <style scoped>
 /* .section {
   padding: 2rem;
