@@ -40,7 +40,7 @@
           </div>-->
         </div>
         <div class="columns is-multiline is-mobile tool-cards"></div>
-        <Toolcard
+        <Softskillscard
           class="column is-6-mobile is-4-tablet is-3-desktop"
           v-for="tool in softskills"
           :key="tool.name"
@@ -54,10 +54,12 @@
 <script>
 // import Underconstruction from "@/components/Underconstruction.vue";
 import Toolcard from "@/components/Toolcard.vue";
+import Softskillscard from "@/components/Softskillscard.vue";
 export default {
   components: {
     // Underconstruction,
-    Toolcard
+    Toolcard,
+    Softskillscard
   },
   data() {
     return {
@@ -111,6 +113,10 @@ export default {
       ],
       otherTools: [
         {
+          name: "agile",
+          imgPath: "trello.svg"
+        },
+        {
           name: "arduino",
           imgPath: "arduino.svg"
         },
@@ -120,10 +126,6 @@ export default {
         }
       ],
       softskills: [
-        {
-          name: "agile",
-          imgPath: "trello.svg"
-        },
         {
           name: "trabajo en equipo"
         },
