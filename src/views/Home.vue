@@ -2,15 +2,15 @@
   <section class="section">
     <div class="columns is-vcentered is-centered is-multiline">
       <div class="column is-8">
-        <h3 class="is-size-3 first-part is-size-1-desktop">¡Hola!</h3>
-        <p class="is-size-4 first-part is-size-2-desktop">
+        <h3 class="is-size-3 is-size-1-desktop first-part">¡Hola!</h3>
+        <p class="is-size-4 is-size-2-desktop first-part">
           Me llamo Isis y soy desarrolladora web en CDMX.
         </p>
-        <p class="is-size-4 first-part is-size-2-desktop">
+        <p class="is-size-4 is-size-2-desktop first-part">
           Me encanta convertir ideas en código, programar y crear aplicaciones
           💡⚙️👩🏽‍💻.
         </p>
-        <p class="is-size-5 second-part is-size-3-desktop">
+        <p class="is-size-5 is-size-3-desktop second-part">
           Siempre aprendiendo 🙋🏽‍♀️📚.
         </p>
         <p class="is-size-5 is-size-3-desktop">

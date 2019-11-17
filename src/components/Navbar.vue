@@ -1,14 +1,14 @@
 <template>
-  <nav class="navbar is-spaced">
+  <nav class="navbar is-spaced navbar-vue">
     <div class="navbar-brand">
-      <div class="navbar-item center-h">
+      <div class="navbar-item has-text-centered center-h">
         <router-link :to="{ name: 'home' }" id="logoLink">
-          <h1 class="title title-logo">Isis Lázaro</h1>
-          <h2 class="subtitle is-6 subtitle-logo">desarrolladora web</h2>
+          <h1 class="title is-2 title-logo">Isis Lázaro</h1>
+          <h2 class="subtitle is-5 subtitle-logo">desarrolladora web</h2>
         </router-link>
       </div>
     </div>
-    <div class="navbar-end is-flex-mobile">
+    <div class="navbar-end is-size-4-tablet is-size-5 is-flex-mobile">
       <div class="navbar-item">
         <router-link :to="{ name: 'proyectos' }">Proyectos</router-link>
       </div>
@@ -22,13 +22,10 @@
   </nav>
 </template>
 
-<script>
-export default {
-  name: "Navbar"
-};
-</script>
-
 <style scoped>
+/* .navbar-vue {
+  margin: 0 7rem;
+} */
 .is-flex-mobile {
   justify-content: center;
 }
@@ -38,9 +35,9 @@ export default {
   padding: 0.5rem 0rem;
 }
 
-#logoLink {
+/* #logoLink {
   display: block;
-}
+} */
 
 .title-logo {
   font-family: "Fugaz One", cursive;
@@ -63,7 +60,7 @@ export default {
 
 .navbar-end {
   align-items: end;
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 
 .navbar-item {
@@ -90,9 +87,9 @@ export default {
   }
 }*/
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .navbar-end {
     font-size: 1.3rem;
   }
-}
+} */
 </style>
