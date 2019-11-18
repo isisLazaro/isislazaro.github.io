@@ -1,8 +1,8 @@
 <template>
   <section class="section">
-    <div class="columns is-vcentered is-centered is-multiline">
-      <div class="column is-8">
-        <h3 class="is-size-3 is-size-1-desktop first-part">¡Hola!</h3>
+    <div class="columns is-vcentered is-centered is-multiline is-mobile">
+      <div class="column is-full-mobile is-9-tablet is-8-desktop">
+        <h3 class="is-size-3 is-size-1-tablet first-part">¡Hola!</h3>
         <p class="is-size-4 is-size-2-desktop first-part">
           Me llamo Isis y soy desarrolladora web en CDMX.
         </p>

@@ -1,6 +1,6 @@
-// $navbar-background-color: #f1cc46;
-$mobile: 576px;
-$tablet: 768px;
+$mobile: 320px;
+$tablet: 640px;
+// $tablet: 768px;
 $navbar-breakpoint: $tablet;
 $section-padding: 2rem 0.5rem;
 @import "~bulma/bulma";

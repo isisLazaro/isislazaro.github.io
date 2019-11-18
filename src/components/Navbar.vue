@@ -1,14 +1,18 @@
 <template>
-  <nav class="navbar is-spaced navbar-vue">
+  <nav class="navbar is-spaced">
     <div class="navbar-brand">
-      <div class="navbar-item has-text-centered center-h">
+      <div class="navbar-item has-text-centered navbar-item-logo center-h">
         <router-link :to="{ name: 'home' }" id="logoLink">
-          <h1 class="title is-2 title-logo">Isis Lázaro</h1>
-          <h2 class="subtitle is-5 subtitle-logo">desarrolladora web</h2>
+          <h1 class="is-size-3 is-size-2-desktop title-logo">Isis Lázaro</h1>
+          <h2 class="is-size-6 is-size-5-desktop subtitle-logo">
+            desarrolladora web
+          </h2>
         </router-link>
       </div>
     </div>
-    <div class="navbar-end is-size-4-tablet is-size-5 is-flex-mobile">
+    <div
+      class="navbar-end is-size-4-desktop is-size-5 is-flex navbar-end-items"
+    >
       <div class="navbar-item">
         <router-link :to="{ name: 'proyectos' }">Proyectos</router-link>
       </div>
@@ -23,11 +27,10 @@
 </template>
 
 <style scoped>
-/* .navbar-vue {
-  margin: 0 7rem;
-} */
-.is-flex-mobile {
-  justify-content: center;
+.navbar-item-logo {
+  font-family: "Fugaz One", cursive;
+  font-weight: lighter;
+  /* color: mintcream; */
 }
 
 .center-h {
@@ -35,17 +38,12 @@
   padding: 0.5rem 0rem;
 }
 
-/* #logoLink {
-  display: block;
-} */
-
 .title-logo {
   font-family: "Fugaz One", cursive;
   font-size: 2rem;
   /* color: #c8257d; */
   /* color: #8c489f; */
   color: #6c08e7;
-
   /* letter-spacing: 0.1rem; */
   /* color: thistle; */
 }
@@ -58,16 +56,31 @@
   /* color: mintcream; */
 }
 
-.navbar-end {
+.navbar.is-spaced .navbar-end {
   align-items: end;
-  /* font-size: 1rem; */
 }
 
-.navbar-item {
-  font-family: "Fugaz One", cursive;
-  font-weight: lighter;
-  /* color: mintcream; */
+.navbar-end-items {
+  /* align-items: end; */
+  justify-content: center;
 }
+
+/* .navbar-end .navbar-item {
+  align-items: end; */
+/* font-size: 1rem; */
+/* } */
+
+/* .is-flex-mobile {
+  justify-content: first baseline;
+} */
+
+/* .navbar-vue {
+  margin: 0 7rem;
+} */
+
+/* #logoLink {
+  display: block;
+} */
 
 /* @media screen and (min-width: 410px) and (max-width: 464px) {
   .navbar-end {

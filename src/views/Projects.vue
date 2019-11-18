@@ -1,7 +1,7 @@
 <template>
   <section class="section">
-    <div class="columns is-vcentered is-centered is-multiline">
-      <div class="column is-8">
+    <div class="columns is-vcentered is-centered is-multiline is-mobile">
+      <div class="column is-full-mobile is-9-tablet is-8-desktop">
         <h3 class="is-size-4 is-size-2-desktop">Proyectos</h3>
         <!-- </div> -->
         <!-- <div class="column is-one-third"> -->
