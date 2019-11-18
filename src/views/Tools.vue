@@ -2,7 +2,11 @@
   <section class="section">
     <div class="columns is-vcentered is-centered is-multiline mobile">
       <div class="column is-full-mobile is-9-tablet is-8-desktop">
-        <h3 class="is-size-4 is-size-2-desktop">Herramientas</h3>
+        <h3
+          class="is-size-4 is-size-2-desktop has-text-weight-bold tools-title"
+        >
+          Herramientas
+        </h3>
       </div>
       <div class="column is-full-mobile is-9-tablet is-8-desktop">
         <h4 class="is-size-5 tools-subtitle is-size-3-desktop">
@@ -109,7 +113,7 @@ export default {
         {
           name: "figma"
         },
-        { name: "invision studio" }
+        { name: "invision studio", imgPath: "invision.svg" }
       ],
       otherTools: [
         {
@@ -133,7 +137,7 @@ export default {
           name: "autoaprendizaje"
         },
         {
-          name: "grow mindset"
+          name: "growth mindset"
         },
         {
           name: "adaptabilidad"
@@ -147,12 +151,17 @@ export default {
 };
 </script>
 <style scoped>
-.tool-cards {
-  margin-left: -0.1rem;
+.tools-title {
+  color: #410e85;
 }
 
 .tools-subtitle {
   padding: 0.8rem 0 2rem;
+  color: #410e85;
+}
+
+.tool-cards {
+  margin-left: -0.1rem;
 }
 
 /* .media-tools-subtitle {

@@ -15,9 +15,10 @@
         </p>
         <p class="is-size-5 is-size-3-desktop">
           Te invito a que conozcas algunos de los
-          <router-link :to="{ name: 'proyectos' }">proyectos&nbsp;</router-link
+          <router-link :to="{ name: 'proyectos' }" class="item-router"
+            >proyectos&nbsp;</router-link
           >en los que he trabajado y las
-          <router-link :to="{ name: 'herramientas' }"
+          <router-link :to="{ name: 'herramientas' }" class="item-router"
             >herramientas&nbsp;</router-link
           >que he utilizado.
         </p>
@@ -38,6 +39,11 @@
 .second-part {
   position: static;
   padding: 3rem 0 3.2rem;
+}
+
+.item-router {
+  color: #6c08e7;
+  /* background: rgba(108, 8, 231, 20%); */
 }
 /* .first-paragraph:first-letter {
   font-size: 150%;

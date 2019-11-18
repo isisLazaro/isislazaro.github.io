@@ -18,7 +18,10 @@ export default {
 </script>
 <style>
 /* @import "./assets/debug.css"; */
-
+/* * {
+  background: #ceb0b2;
+}
+ */
 #app {
   font-family: "Open Sans", sans-serif;
   padding: 0 2rem;

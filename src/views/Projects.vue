@@ -2,7 +2,11 @@
   <section class="section">
     <div class="columns is-vcentered is-centered is-multiline is-mobile">
       <div class="column is-full-mobile is-9-tablet is-8-desktop">
-        <h3 class="is-size-4 is-size-2-desktop">Proyectos</h3>
+        <h3
+          class="is-size-4 is-size-2-desktop has-text-weight-bold projects-title"
+        >
+          Proyectos
+        </h3>
         <!-- </div> -->
         <!-- <div class="column is-one-third"> -->
         <!-- <Underconstruction /> -->
@@ -53,6 +57,9 @@ export default {
 </script>
 
 <style scoped>
+.projects-title {
+  color: #410e85;
+}
 .project-card {
   padding: 1.5rem 0;
 }

@@ -9,7 +9,7 @@
       </figure>
     </div>
     <div class="column is-half">
-      <h3 class="is-size-5 second-part is-size-3-desktop">
+      <h3 class="is-size-5 is-size-4-desktop project-title">
         {{ project.name }}
       </h3>
       <p>{{ project.description }}</p>
@@ -36,3 +36,8 @@ export default {
   }
 };
 </script>
+<style scoped>
+.project-title {
+  color: #410e85;
+}
+</style>

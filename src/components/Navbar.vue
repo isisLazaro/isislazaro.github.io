@@ -14,10 +14,18 @@
       class="navbar-end is-size-4-desktop is-size-5 is-flex navbar-end-items"
     >
       <div class="navbar-item">
-        <router-link :to="{ name: 'proyectos' }">Proyectos</router-link>
+        <router-link
+          :to="{ name: 'proyectos' }"
+          class="has-text-weight-bold navbar-item-router"
+          >Proyectos</router-link
+        >
       </div>
       <div class="navbar-item">
-        <router-link :to="{ name: 'herramientas' }">Herramientas</router-link>
+        <router-link
+          :to="{ name: 'herramientas' }"
+          class="has-text-weight-bold navbar-item-router"
+          >Herramientas</router-link
+        >
       </div>
       <!-- <div class="navbar-item">
         <router-link :to="{ name: 'about' }">Acerca de mí</router-link>
@@ -41,9 +49,8 @@
 .title-logo {
   font-family: "Fugaz One", cursive;
   font-size: 2rem;
-  /* color: #c8257d; */
-  /* color: #8c489f; */
   color: #6c08e7;
+
   /* letter-spacing: 0.1rem; */
   /* color: thistle; */
 }
@@ -52,8 +59,8 @@
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   font-weight: bold;
-  color: #21123b;
-  /* color: mintcream; */
+  /* color: #21123b; */
+  color: #410e85;
 }
 
 .navbar.is-spaced .navbar-end {
@@ -63,6 +70,10 @@
 .navbar-end-items {
   /* align-items: end; */
   justify-content: center;
+}
+
+.navbar-item-router {
+  color: #410e85;
 }
 
 /* .navbar-end .navbar-item {
