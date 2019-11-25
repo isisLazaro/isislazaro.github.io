@@ -5,7 +5,10 @@
         <h3
           class="is-size-4 is-size-2-desktop has-text-weight-bold tools-title"
         >
-          Herramientas
+          <span class="icon">
+            <i class="fas fa-toolbox"></i>
+          </span>
+          &nbsp;Herramientas
         </h3>
       </div>
       <div class="column is-full-mobile is-9-tablet is-8-desktop">

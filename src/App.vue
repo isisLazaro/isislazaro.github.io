@@ -17,7 +17,7 @@ export default {
 };
 </script>
 <style>
-/* @import "./assets/debug.css"; */
+@import "./assets/debug.css";
 /* * {
   background: #ceb0b2;
 }
