@@ -36,7 +36,9 @@ export default {
           name: "Proyecto 1",
           imgPath: "data-lovers.png",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Tincidunt dui ut ornare lectus sit amet est placerat."
+            "Interfaz para visualizar datos consumidos de una API de forma dinámica.",
+          pathRepo: "https://github.com/isisLazaro/dataLovers_v2",
+          path: "https://isislazaro.github.io/dataLovers_v2/src/"
         },
         {
           name: "Proyecto 2",
