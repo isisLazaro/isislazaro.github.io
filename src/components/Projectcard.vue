@@ -13,12 +13,17 @@
         {{ project.name }}
       </h3>
       <p>{{ project.description }}</p>
-      <button class="button" disabled>
+      <!-- <a :href="project.pathNameRepo">github</a> -->
+      <a :href="`https://github.com/isisLazaro/${project.pathNameRepo}`"
+        >github</a
+      >
+      <a href="">website</a>
+      <!-- <button class="button" type="submit" disabled>
         <span class="icon">
           <i class="fab fa-github"></i>
         </span>
         <span>GitHub</span>
-      </button>
+      </button> -->
       <!-- <button class="button" disabled>
         <span class="icon">
           <i class="fas fa-link"></i>

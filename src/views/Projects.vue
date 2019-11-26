@@ -37,7 +37,7 @@ export default {
           imgPath: "data-lovers.png",
           description:
             "Interfaz para visualizar datos consumidos de una API de forma dinámica.",
-          pathRepo: "https://github.com/isisLazaro/dataLovers_v2",
+          pathNameRepo: "dataLovers_v2",
           path: "https://isislazaro.github.io/dataLovers_v2/src/"
         },
         {
