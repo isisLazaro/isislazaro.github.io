@@ -33,7 +33,7 @@ export default {
     return {
       projects: [
         {
-          name: "Proyecto 1",
+          name: "Data Lovers: Rick and Morty API",
           imgPath: "data-lovers.png",
           description:
             "Interfaz para visualizar datos consumidos de una API de forma dinámica.",
@@ -41,10 +41,12 @@ export default {
           path: "https://isislazaro.github.io/dataLovers_v2/src/"
         },
         {
-          name: "Proyecto 2",
-          imgPath: "browserMockup.jpg",
+          name: "+Gas",
+          imgPath: "masGas.png",
           description:
-            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "Aplicación para ubicar gasolineras cercanas a la localización del usuario o a un punto que se indique. Se desarrolló en equipo integrado por desarrolladoras FE yUX, durante un hackaton interno de Laboratoria de dos días. ",
+          pathNameRepo: "app-mockhackaton",
+          path: "https://isislazaro.github.io/app-mockhackaton/"
         },
         {
           name: "Proyecto 3",
