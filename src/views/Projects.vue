@@ -49,10 +49,12 @@ export default {
           path: "https://isislazaro.github.io/app-mockhackaton/"
         },
         {
-          name: "Proyecto 3",
-          imgPath: "browserMockup.jpg",
+          name: "Bye Spoilers!",
+          imgPath: "byeSpolers.png",
           description:
-            "Pulvinar neque laoreet suspendisse interdum consectetur libero id. Bibendum enim facilisis gravida neque convallis. Nisl nunc mi ipsum faucibus vitae aliquet nec. "
+            "Aplicación web para que el usuario pueda cifrar y descifrar un texto, indicando un desplazamiento específico de caracteres (offset) utilizando un alfabeto simple. ",
+          pathNameRepo: "MEX-008-Cipher",
+          path: "https://isislazaro.github.io/MEX-008-Cipher/src/"
         }
       ]
     };
